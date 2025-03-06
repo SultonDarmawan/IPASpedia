@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/nav_materi"
+        android:icon="@drawable/ic_materi"
+        android:title="Materi"/>
+
+    <item
+        android:id="@+id/nav_data"
+        android:icon="@drawable/ic_data"
+        android:title="Data"/>
+
+    <item
+        android:id="@+id/nav_kuis"
+        android:icon="@drawable/ic_kuis"
+        android:title="Kuis"/>
+
+    <item
+        android:id="@+id/nav_pengaturan"
+        android:icon="@drawable/ic_pengaturan"
+        android:title="Pengaturan"/>
+
+</menu>

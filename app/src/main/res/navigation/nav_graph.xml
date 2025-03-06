@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.e_kuisioner.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_materi"
+        android:name="com.example.e_kuisioner.MateriFragment"
+        android:label="Materi"
+        tools:layout="@layout/fragment_materi" />
+
+    <fragment
+        android:id="@+id/navigation_data"
+        android:name="com.example.e_kuisioner.DataFragment"
+        android:label="Data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/navigation_kuis"
+        android:name="com.example.e_kuisioner.KuisFragment"
+        android:label="Kuis"
+        tools:layout="@layout/fragment_kuis" />
+
+    <fragment
+        android:id="@+id/navigation_pengaturan"
+        android:name="com.example.e_kuisioner.PengaturanFragment"
+        android:label="Pengaturan"
+        tools:layout="@layout/fragment_pengaturan" />
+
+</navigation>
